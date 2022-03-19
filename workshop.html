@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indic Layout Parser</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="loadfunction()">
+
+    <script>
+        function loadfunction() {
+            document.querySelector("#pre").style.display = "none";
+            document.querySelector("#lay").style.display = "none";
+            document.querySelector("#vis").style.display = "none";
+        }
+    </script>
+
+    <!-- Section 1 -->
+
+    <section id="title">
+
+        <div class="container-fluid">
+
+            <div class="container">
+                <!-- Nav Bar -->
+
+                <nav class="navbar navbar-expand-lg">
+
+                    <a class="navbar-item" href="/">
+                        <img class="lp-badge" src="images/loggo.jpeg" alt="logo" style="width: 6rem; height: 6rem;">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color:var(--black-color-3); font-size:28px;"></i>
+                  </span>
+                </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Title -->
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6 align-middle">
+                        <h1 class="big-heading">Big Heading</h1>
+                        <h5 class="sub-heading">Vivamus faucibus gravida mi in accumsan. Vivamus aliquet viverra purus et dictum. Etiam sodales magna felis, sit amet gravida risus interdum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut pulvinar neque,
+                            tincidunt tincidunt nisl. Curabitur in justo elementum, pretium nisi ut, luctus eros.</h5>
+                    </div>
+                    <div class="col-lg-6 align-middle">
+                        <img src="images/Document-Writing.png" style="width: 100%; display:block;" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 4 -->
+
+    <!-- The Media start -->
+    <div class="blog-section p-tb" id="our-team">
+        <div class="container">
+            <div class="sec-title text-center">
+                <h3>Our Team</h3>
+            </div>
+        </div>
+        <div class="contributors"></div>
+    </div>
+    <!-- The Media end -->
+
+    <section id="faqs">
+        <section>
+            <div class="heading text-lg-left text-sm-center">Frequently Asked Questions</div>
+            <div class="faqs-content">
+                <ul class="faq-list">
+                    <li>
+                        <h4 class="faq-heading"> Why choose digital marketing agencies in bangalore? </h4>
+                        <p class="read faq-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit. Suspendisse metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id. Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="faq-heading"> Why choose digital marketing agencies in bangalore? </h4>
+                        <p class="read faq-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit. Suspendisse metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id. Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="faq-heading"> Why choose digital marketing agencies in bangalore? </h4>
+                        <p class="read faq-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit. Suspendisse metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id. Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="faq-heading">
+                            What is the difference between white hat and black hat SEO techniques
+                        </h4>
+                        <p class="read faq-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit. Suspendisse metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id. Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="faq-heading">
+                            What is the difference between white hat and black hat SEO techniques
+                        </h4>
+                        <p class="read faq-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, felis quis viverra mattis, quam mi elementum ipsum, lacinia blandit ipsum massa a elit. Suspendisse metus ex, porta ut velit vitae, sagittis dapibus sapien. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Nulla mollis maximus sem, id malesuada neque porta id. Praesent scelerisque molestie mollis. Integer nec ullamcorper massa.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <footer class="py-2 border-top" style="background:#D4F1F4">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <p class="mb-0 text-muted">&copy; 2022 Document Parser. All rights reserved.</p>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2 text-muted">Medium To Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="contri.js"></script>
+</body>
+
+</html>
