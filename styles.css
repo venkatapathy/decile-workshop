@@ -153,3 +153,22 @@ h6 {
         max-height: 325px;
     }
 }
+
+.col{
+    font-family: 'DM Serif Display', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Source Serif 4', sans-serif;
+font-family: 'Ultra', serif;
+}
+.text-muted{
+    margin-top: 2rem;
+   margin-left: 35rem;
+   
+}
+.card{
+    padding: 1rem;
+}
