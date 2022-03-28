@@ -6,33 +6,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indic Layout Parser</title>
+    <title>Decile Workshop</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <!-- Bootstrap Scripts -->
-   
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="loadfunction()">
+<!-- <body onload="loadfunction()"> -->
+
+<body>
 
     <script>
         function loadfunction() {
@@ -44,163 +53,239 @@
 
     <!-- Section 1 -->
 
-    <section id="title">
 
-        <div class="container-fluid">
 
-            <div class="container bg-light ">
-                <!-- Nav Bar -->
+    <div class="container-fluid">
 
-                <nav class="navbar navbar-expand-lg">
+        <div class="container bg-light ">
+            <!-- Nav Bar -->
 
-                    <a class="navbar-item" href="/">
-                        <img class="lp-badge" src="https://decile.org/images/DECILE%20Logo.svg" alt="logo" style="width: 6rem; height: 6rem;">
-                    </a>
+            <nav class="navbar navbar-expand-lg">
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-                  <span class="navbar-toggler-icon">
-                    <i class="fas fa-bars" style="color:var(--black-color-3); font-size:28px;"></i>
-                  </span>
+                <a class="navbar-item" href="/">
+                    <img class="lp-badge" src="https://decile.org/images/DECILE%20Logo.svg" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:var(--black-color-3); font-size:28px;"></i>
+                    </span>
                 </button>
 
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#workshop-about">About Workshop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#workshop-schedule">Our Schedule</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#workshop-speakers">Our Speakers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact-us">Contact Us</a>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workshop-about">About Workshop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workshop-schedule">Our Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workshop-speakers">Our Speakers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
 
-                    </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
+        </div>
 
-            <!-- Section 1 -->
+        <!-- Section 1 -->
 
-            </div> 
+    </div>
 
-            <div class="container align-text-bottom text-center" id="workshop-rsvp">
-                <p class="lead display-1">DECILE WORKSHOP</p>
-                <p class="lead display-5">AUGUST 27 &amp; 28, 2022</p>
-                <p class="lead display-5">JOIN US</p><p>
-                 <a href="https://forms.gle/wCTeGzqQh4scpRUN7">
-                    <button class="btn btn-primary rounded-pill">
-                       REGISTER HERE 
-                     </button>
-                    </a>
+    <div class="container align-text-bottom text-center" id="workshop-rsvp">
+        <p class="display-4">DECILE WORKSHOP</p>
+        <p class="h4">April 30th &amp; May 1st, 2022</p>
+        <p class="h4">JOIN US</p>
+        <p>
+            <a href="https://forms.gle/wCTeGzqQh4scpRUN7" target="_blank">
                 <button class="btn btn-primary rounded-pill">
-                    GET RSVP
+                    REGISTER HERE
                 </button>
-            </p></div>
+            </a>
 
-        </div>
+        </p>
+    </div>
 
-    </section>
-
-    <div class="container-fluid bg-black">
-        <div class="row p-5 pt-5">
-            <div class="ps-5 text-white text-lg-center" id="workshop-about">
-                <p class="display-2 pb-3">ABOUT THE WORKSHOP</p>
-                <p class="lead">
-                    In today's modern world, Machine Learning and Deep Learning have taken a new turn and have changed the way systems work. 
-                    Its growing adoption in business across various industries shows the performance of the ML algorithms and frameworks. 
-                    But one of the biggest challenges faced in mainstream applications is efficiency and robustness. 
-                    With the growth of computers and mobile devices, there is substantial growth in data.
-                    Machine learning tasks often involve using larger neural networks to achieve good accuracy which requires high-end GPUs, 
-                    massive datasets which are expensive in terms of both time and cost. When there are limited resources and time, it may then pose a problem.
-                    The excitement over AI's growth has also signaled caution towards its direct impact on the environment. 
-                    Research shows that training a large deep learning model emits several thousands of planet-warming carbon-dioxide, 
-                    destroying the natural balance in nature. In contrast, when it comes to learning, 
-                    humans are the best and efficient as they do not require such large examples to learn and they learn very quickly as well as robustly. 
-                </p>
-            </div>
-        </div>
     </div>
 
 
-    <!-- Section 4 -->
-     <section>
-      <h1 style="margin-left: 40%; font-size: 3rem;">OUR SCHEDULE</h1>
-    <div class="container my-4">
-        <div class="row d-flex justify-content-center" style="gap: 2rem;">
-            <div class="col col-lg-5 col-md-12 col-sm-12">
-                <div class="card" style="margin-left: 0rem;">
-                    <h1 style="text-align: center;">On August 27</h1>
-                    <img src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png" width="340px" alt="PYTOCH">
-                    <div class="card-body">
-                       <a href="#" style="color: black; text-decoration: none; text-align: center;">VIEW MORE</a>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col col-12  bg-light bg-gradient">
+                <div class="ps-5" id="workshop-about">
+                    <p class="h4 pb-3 text-lg-center">About DECILE and the Workshop</p>
+                    <p class="fs-6">
+                        Today, Deep Learning is nearing human performance in a wide range of domains including computer
+                        vision and image understanding, natural language processing, speech recognition, machine
+                        translation, and many others. As a result, increasingly, deep learning is being used in industry
+                        to
+                        solve hard business challenges. But one of the biggest challenges faced in mainstream
+                        applications
+                        is efficiency and robustness. With the growth of computers and mobile devices, there is
+                        substantial
+                        growth in data. Machine learning tasks often involve using larger neural networks to achieve
+                        good
+                        accuracy which requires high-end GPUs, massive datasets which are expensive in terms of both
+                        time
+                        and cost (both compute cost and labeling cost). The mission statement of DECILE is to build
+                        tools
+                        and platforms for enabling Data Efficient Machine Learning. We develop tools which aim at, a)
+                        reducing the labeling effort required to train deep models, b) reduce the compute requirements
+                        (time, cost, and energy) of training deep models, and c) make deep learning robust and fair.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col col-12">
+
+                <div class="ps-5" id="workshop-about">
+                    <p class="h4 pb-3">Workshop Key Takeaways</p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">How to learn the model's labels and compute efficiently,
+                            robustly,
+                            and
+                            fairly without sacrificing the accuracy of the model? For this, ML has to go beyond just
+                            optimizing for accuracy!</li>
+                        <li class="list-group-item">How is the industry tackling this challenge and doing
+                            Data-Efficient
+                            Learning?</li>
+                        <li class="list-group-item">Talk on applications of DECILE in several domains including
+                            automl,
+                            self-driving cars, medical imaging, speech recognition, NLP, and many others.</li>
+                        <li class="list-group-item">Hands-on session using PyTorch for Data-Efficient Learning with
+                            the
+                            following State-of-the-Art toolkits:
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item"><mark>CORDS</mark> for Coresets and Data Subset
+                                    Selection
+                                </li>
+                                <li class="list-group-item"><mark>DISTIL</mark> for Active Learning </li>
+                                <li class="list-group-item"><mark>SUBMODLIB</mark> for Submodular Optimization </li>
+                                <li class="list-group-item"><mark>SPEAR</mark> for Semi-supervised Data Programming
+                                </li>
+                            </ol>
+
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+
+            <div class="col col-12">
+                <div class="row pt-1">
+                    <div class="ps-5" id="workshop-about">
+                        <p class="h4 pb-3 text-lg-center">Who should attend this Workshop?</p>
+                        This workshop invites participation from individuals working in the industry, academia, and
+                        students
+                        with experience and/or interest in Machine Learning, Deep Learning, and its efficient
+                        application
+                        for solving problems quickly.
+                        If you work in industry and want to learn how to construct efficient, resilient, and
+                        computationally
+                        efficient models with less training time and less expense, this is the workshop for you.
+                        This session is for academics who wish to learn how to design efficient, resilient, and
+                        computationally efficient models with limited GPU resources.
+
                     </div>
                 </div>
             </div>
-         
+        </div>
 
-       
-            <div class="col col-lg-5 col-md-12 col-sm-12">
-                <div class="card" style="margin-left: 0rem;">
-                    <h1 style="text-align: center;">On August 28</h1>
-                   
-                    <img src="https://decile.org/images/CORDS%20Logo.svg" alt="">
-                    <img src="https://decile.org/images/DISTIL%20Logo.svg" alt="">
-                    <img src="https://decile.org/images/SPEAR%20Logo.svg" alt="">
-                    <div class="card-body">
-                       <a href="#" style="color: black; text-decoration: none; text-align: right;">VIEW MORE</a>
-                    </div>
+
+        <div class="container py-7">
+
+
+            <!-- Days -->
+            <div class="row  pt-5 mt-5 bg-dark">
+                <p class="h1 diplay-4 text-info text-center bg-dark">SCHEDULE</p>
+                <div class="col-lg-6 mb-6" id="Friday, Nov 13th">
+                    <h4 class="mt-0 mb-6 text-light op-8 font-weight-bold">
+                        Saturday, April 30th, 2022
+                    </h4>
+                    <ul class="list-timeline list-timeline-primary bg-light text-info p-0">
+                        <li class="border border-dark list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="op-8">1
+                                    Hour</span> - Introduction on Decile</p>
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">By:
+                                    <span class="text-primary">Prof Rishab and Prof Ganesh Ramakrishnan</span></p>
+                        </li>
+                        <li class="border border-dark list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class=" op-8">1
+                                    Hour 30 mins- Introduction to <img
+                                        src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png"
+                                        class="img-fluid" alt="PYTOCH" width="100px"></span></p>
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="op-8">By:
+                                    <span class="text-primary">By: Suraj K</span></p>
+                        </li>
+                        <li class="border border-dark list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class=" op-8">1
+                                    Hour - Introduction to <img src="https://decile.org/images/CORDS%20Logo.svg"
+                                        class="img-fluid" alt="PYTOCH" width="200px"></span></p>
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="op-8">By:
+                                    <span class="text-primary">By: Suraj K</span></p>
+                        </li>
+                    </ul>
                 </div>
+                <div class="col-lg-6 mb-6" id="Sunday, May 1st">
+                    <h4 class="mt-0 mb-6 text-light op-8 font-weight-bold">
+                        Sunday, May 1st, 2022
+                    </h4>
+                    <ul class="list-timeline list-timeline-primary bg-light text-info p-0">
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">09:00 - 10:00</span> - Registration</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                            data-toggle="collapse" data-target="#day-2-item-2">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">10:00 - 12:00</span> - Vitaly Friedmann</p>
+                            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-2">
+                                Talk: Wireframing / <span class="text-primary">Room 19</span> </p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">12:00 - 13:00</span> - Lunch Break</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                            data-toggle="collapse" data-target="#day-2-item-4">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">13:00 - 15:00</span> - Bruce Lawson</p>
+                            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-4">
+                                Talk: Big Data / <span class="text-primary">Room 19</span> </p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">15:00 - 16:00</span> - Coffee Break</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column"
+                            data-toggle="collapse" data-target="#day-2-item-6">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">16:00 - 18:00</span> - Anthony Jonas</p>
+                            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-6">
+                                Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span
+                                    class="text-inverse op-8">18:00 - 23:00</span> - After conference</p>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-         
-         
-        </div>
-    </div>
-</section>
-
-    <!-- The Media start -->
-    <div id="our-team">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h1 class="text-white ">Our Speakers</h1>
-            </div>
-        </div>
-        <div class="contributors">
         </div>
     </div>
 
 
-  <footer class="footer">
-    <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col col-lg-6">
-          <h1 style="font-size: 4rem;">JOIN US!</h1>
-          </div>
-          <div class="col col-lg-6">
-              <h2>LINKS</h2>
-         <ul style="list-style: none;">
-<li style="font-size: 20px;" ><a style="color: ;" href="#">Home</a></li>
-<li style="font-size: 20px;"><a href="#">About Workshop</a></li>
-<li style="font-size: 20px;"><a href="#">Our Schedule</a></li>
-<li style="font-size: 20px;"><a href="#">Our Speakers</a></li>
-         </ul>
-          </div>
-          
-        </div>
-      </div>
-      <div class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center">
-            <p class="mb-0 text-muted">&copy; 2022 Copyright:</p>
-        </div>
-    </div>
- </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="contri.js"></script>

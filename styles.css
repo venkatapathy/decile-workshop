@@ -35,7 +35,7 @@ h6 {
 /* Navigation Bar */
 
 .lp-badge {
-    height: 50px;
+    
     width: 265px;
 }
 
@@ -45,7 +45,7 @@ h6 {
 
 .nav-item {
     padding: 0 3px;
-    font-size: 1.1rem;
+   /* font-size: 1.1rem; */
 }
 
 .nav-link {
