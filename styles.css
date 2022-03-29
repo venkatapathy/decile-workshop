@@ -35,7 +35,7 @@ h6 {
 /* Navigation Bar */
 
 .lp-badge {
-    width: 265px;
+    max-width: 212px;
 }
 
 .navbar {
@@ -144,4 +144,20 @@ h6 {
 
 .schedule :not([data-toggle]) {
     user-select: none
+}
+
+@media screen and (max-width: 768px) {
+    #workshop-about,
+    #workshop-key {
+        padding: 1rem 1rem !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .lp-badge {
+        width: 190px;
+    }
+    .nav-container {
+        padding: 0 !important;
+    }
 }
