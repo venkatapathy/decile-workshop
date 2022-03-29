@@ -13,7 +13,7 @@
     --black-color-7: #777;
     --white-color-1: #fff;
     --white-color-2: #eee;
-    --white-color-3: #dddd;
+    --white-color-3: #ddd;
     --white-color-4: #ccc;
     --theme-color-1: lightgreen;
 }
@@ -35,7 +35,6 @@ h6 {
 /* Navigation Bar */
 
 .lp-badge {
-    height: 50px;
     width: 265px;
 }
 
@@ -45,7 +44,7 @@ h6 {
 
 .nav-item {
     padding: 0 3px;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 
 .nav-link {
@@ -54,6 +53,7 @@ h6 {
 
 
 /* Section 1 */
+
 
 /* .container-fluid {
     padding: 7% 15%;
@@ -81,99 +81,67 @@ h6 {
     text-align: left;
 }
 
+
 /* #title .container-fluid {
     padding: 2% 5% 2%;
 } */
 
-/* About the Workshop Section */
-
-.bg-black{
-    background-color: black;
+.col {
+    /* font-family: 'DM Serif Display', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Ultra', serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
-/************ our-team and contributor-section *******/
-
-#our-team {
-    padding: 1rem;
-    background: linear-gradient(55deg, var(--background-3) 10%, var(--black-color-0));
-}
-
-.contributors {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    justify-items: center;
-    justify-content: center;
-    gap: 10px;
-    grid-row-gap: 2em;
-    padding: 1.25rem;
-}
-
-@media screen and (min-width: 1600px) {
-    .contributors {
-        max-width: 1200px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-.contri-card {
-    max-width: 200px;
-    height: auto;
-    border: 1px solid transparent;
-    border-image: linear-gradient(transparent 30%, var(--theme-color-1));
-    border-image-slice: 1;
-}
-
-.contri-card-front,
-.contri-card-back {
-    width: 100%;
-}
-
-.contri-card-front {
-    padding-inline: 0.2rem;
-}
-
-.contri-card-front img {
-    width: 100%;
-    aspect-ratio: 1 /1;
-    /* max-height: 250px; */
-    border-radius: 50%;
-    background: var(--background-1);
-}
-
-.contri-card-back {
-    margin-block: 1rem 0.5rem;
-    color: var(--white-color-1);
-    padding-inline: 6px;
-    font-size: 1.15rem;
-    text-align: center
-}
-
-@media screen and (max-width: 1280px) and (min-width: 768px) {
-    .contri-card {
-        max-width: 300px;
-    }
-    .contri-card-front img {
-        max-height: 325px;
-    }
-}
-
-.col{
-    font-family: 'DM Serif Display', serif;
-font-family: 'Lobster', cursive;
-font-family: 'Noto Serif', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Sansita Swashed', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Source Serif 4', sans-serif;
-font-family: 'Ultra', serif;
-}
-.text-muted{
+.text-muted {
     margin-top: 2rem;
-   margin-left: 35rem;
-   
+    margin-left: 35rem;
 }
-.card{
+
+.card {
     padding: 1rem;
+}
+
+.about-para {
+    color: var(--black-color-5);
+    line-height: 1.7;
+}
+
+.workshop-list>* {
+    padding: 0.6rem 1.5rem !important;
+    color: var(--black-color-5) !important;
+}
+
+.workshop-list>*:last-child {
+    margin-bottom: 0.75rem
+}
+
+.schedule {
+    background-color: var(--background-2);
+    border-radius: 4px
+}
+
+.schedule ul li {
+    padding: 0.75rem 1.25rem !important;
+    margin-block: 0.5rem !important;
+    border-radius: 3px;
+    background-color: var(--white-color-1)
+}
+
+.schedule ul li img {
+    border: 1px solid var(--black-color-3);
+    border-radius: 3px
+}
+
+.schedule [data-toggle] {
+    cursor: pointer;
+}
+
+.schedule :not([data-toggle]) {
+    user-select: none
 }
