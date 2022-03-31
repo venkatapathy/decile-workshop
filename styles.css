@@ -220,8 +220,10 @@ h6 {
     background:#f9fafb;
 }
 
-.email {
+.container {
     padding: 20px;
+}
+.email {
     color: blue;
     text-decoration: underline;
 }
