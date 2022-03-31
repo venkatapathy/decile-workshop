@@ -213,6 +213,19 @@ h6 {
     display: none;
 }
 
+/* Footer */
+
+.foooter{
+    text-align: center;
+    background:#f9fafb;
+}
+
+.email {
+    padding: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     #workshop-about,
     #workshop-key {
