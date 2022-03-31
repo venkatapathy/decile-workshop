@@ -7,6 +7,7 @@
     --background-1: #fff;
     --background-2: #000;
     --background-3: #151515;
+    --background-4: #f9fafb; 
     --black-color-0: #000;
     --black-color-3: #333;
     --black-color-5: #555;
@@ -122,15 +123,17 @@ h6 {
 }
 
 .schedule {
-    background-color: var(--background-2);
-    border-radius: 4px
+    /* background-color: var(--background-2); */
+    border-radius: 4px;
+    color: var(--black-color-3);
+    border: 1px solid #333;
 }
 
 .schedule ul li {
     padding: 0.75rem 1.25rem !important;
     margin-block: 0.5rem !important;
     border-radius: 3px;
-    background-color: var(--white-color-1)
+    background-color: var(--background-4);
 }
 
 .schedule ul li img {
@@ -144,6 +147,70 @@ h6 {
 
 .schedule :not([data-toggle]) {
     user-select: none
+}
+
+/* FAQs Section Starts */
+
+#faqs {
+    padding: 1.5rem;
+    justify-content: center
+}
+
+#faqs .heading {
+    font-size: 30px;
+    margin: auto;
+    text-align: left;
+    max-width: 780px
+}
+
+.faqs-content {
+    padding: 20px
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0
+}
+
+.faq-list li {
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 4px;
+    margin: 0px auto 30px;
+    text-align: left;
+    max-width: 780px
+}
+
+.faq-list .faq-heading::before {
+    content: '+';
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    color: var(--white-color-4, #c2c2c2)
+}
+
+.faq-list .the-active .faq-heading::before {
+    content: '-'
+}
+
+.faq-heading {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--white-color-4)
+}
+
+.faq-heading:hover {
+    color: var(--theme-color)
+}
+
+.faq-text {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
